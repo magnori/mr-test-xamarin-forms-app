@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:controls="clr-namespace:Magnolia.Xamarin.Forms.Controls;assembly=TestApp"
+    xmlns:local="clr-namespace:TestApp"
+    x:Class="TestApp.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label 
+            Text="Welcome to Xamarin.Forms!" 
+            HorizontalOptions="Center"
+            VerticalOptions="CenterAndExpand" />
+        <controls:ResizableImage
+            ResourceName="Back_500px.png"
+            ImageWidth="100"
+            ImageHeight="100" />
+    </StackLayout>
+
+</ContentPage>

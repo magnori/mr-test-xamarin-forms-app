@@ -12,10 +12,6 @@
             Text="Welcome to Xamarin.Forms!"
             HorizontalOptions="Center"
             VerticalOptions="CenterAndExpand" />
-        <Image
-            x:Name="regImage"
-            WidthRequest="80"
-            HeightRequest="80" />
     </StackLayout>
 
 </ContentPage>

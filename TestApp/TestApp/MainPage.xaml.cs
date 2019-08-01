@@ -1,10 +1,10 @@
-﻿using Magnolia.Xamarin.Forms.Controls;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using TestApp.Utils;
 using Xamarin.Forms;
 
 namespace TestApp
@@ -14,9 +14,6 @@ namespace TestApp
         public MainPage()
         {
             InitializeComponent();
-
-            Assembly assembly = Assembly.GetExecutingAssembly();
-            this.regImage.Source = ImageSource.FromResource(ResizableImage.GetFullResourceName(assembly, "attach.png"));
         }
     }
 }

@@ -11,10 +11,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\attach.png" />
     <None Remove="Images\Back_500px.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Images\attach.png" />
     <EmbeddedResource Include="Images\Back_500px.png" />
   </ItemGroup>
 

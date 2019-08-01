@@ -8,14 +8,10 @@
 
     <StackLayout>
         <!-- Place new controls here -->
-        <Label 
-            Text="Welcome to Xamarin.Forms!" 
+        <Label
+            Text="Welcome to Xamarin.Forms!"
             HorizontalOptions="Center"
             VerticalOptions="CenterAndExpand" />
-        <controls:ResizableImage
-            ResourceName="attach.png"
-            ImageWidth="80"
-            ImageHeight="80" />
         <Image
             x:Name="regImage"
             WidthRequest="80"

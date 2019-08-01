@@ -41,7 +41,6 @@ namespace Magnolia.Xamarin
 			return ResizeImageAndroid ( imageData, width, height );
 #endif
 #if WINDOWS_UWP
-            Debug.WriteLine("THIS IS UWP");
             var resizedBytes = await ResizeImageWindows(imageData, width, height);
             return resizedBytes;
 #endif

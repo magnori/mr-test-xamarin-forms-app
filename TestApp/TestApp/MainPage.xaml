@@ -13,9 +13,13 @@
             HorizontalOptions="Center"
             VerticalOptions="CenterAndExpand" />
         <controls:ResizableImage
-            ResourceName="Back_500px.png"
-            ImageWidth="100"
-            ImageHeight="100" />
+            ResourceName="attach.png"
+            ImageWidth="80"
+            ImageHeight="80" />
+        <Image
+            x:Name="regImage"
+            WidthRequest="80"
+            HeightRequest="80" />
     </StackLayout>
 
 </ContentPage>
